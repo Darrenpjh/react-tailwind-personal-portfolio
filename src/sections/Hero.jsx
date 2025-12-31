@@ -69,7 +69,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                Data Engineer • 
               </span>
             </div>
 
@@ -85,9 +85,9 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I'm Darren Png — a Data engineer with a background in electronics and data engineering.
+                I specialize in building data-driven and machine learning solutions using Python, turning 
+                complex datasets into actionable insights.
               </p>
             </div>
 

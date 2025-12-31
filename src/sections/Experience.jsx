@@ -1,38 +1,33 @@
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+    period: "May 2025 — Present",
+    role: "Data Scientist Intern",
+    company: "STMicroelectronics",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+      "Built and deployed machine learning models and automation tools using Python and scikit-learn to improve process efficiency. Developed OCR-based data extraction systems and automated report generation pipelines, saving over 150 hours through digitalization initiatives. Analyzed production data to uncover performance trends and delivered data-driven insights for process optimization.",
+    technologies: [
+      "Python",
+      "scikit-learn",
+      "Pandas",
+      "NumPy",
+      "PyTorch",
+      "FastAI",
+      "SQL",
+      "Linux",
+    ],
     current: true,
   },
-  {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+ {
+    period: "Apr 2019 — Sep 2020",
+    role: "Immigration Officer",
+    company: "Immigration & Checkpoints Authority (ICA)",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
-    current: false,
-  },
-  {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
-    description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
-    current: false,
-  },
-  {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
-    company: "Self-Employed",
-    description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+      "Performed daily safety and compliance inspections using engineering systems for vehicle and cargo scanning. Assisted in operational decision-making through accurate inspections and supported frontline operations with a focus on efficiency, safety, and reliability.",
+    technologies: [
+      "Engineering Systems",
+      "Inspection Technology",
+      "Operational Analysis",
+    ],
     current: false,
   },
 ];

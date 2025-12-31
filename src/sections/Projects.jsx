@@ -2,42 +2,134 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "AI Agents with LangChain & LangGraph",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
+      "Designed and built AI agents from scratch using Python and LLMs, then reimplemented them using LangGraph’s flow-based architecture for better control and modularity. Implemented agentic search, state persistence, multi-threading, and human-in-the-loop mechanisms. Developed an essay-writing agent that simulates a researcher’s workflow with live agent outputs.",
+    image: "/projects/langgraph-agent.png",
+    tags: [
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "OpenAI",
+      "Generative AI",
+      "AI Agents",
+    ],
     link: "#",
     github: "#",
   },
   {
-    title: "E-Commerce Platform",
+    title: "ResNet-18 Image Classification System",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+      "Developed and trained multiple ResNet-18 models using PyTorch and FastAI for automated image classification. Improved accuracy from 56% to 88%, reduced manual review time by 70%, and increased throughput to 100 images per day. Deployed the system into a Linux-based web application with SQL logging for auditing and reporting.",
+    image: "/projects/resnet18.png",
+    tags: [
+      "Python",
+      "PyTorch",
+      "FastAI",
+      "Computer Vision",
+      "Deep Learning",
+      "SQL",
+      "Linux",
+    ],
     link: "#",
     github: "#",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Injection Moulding Process Prediction (ML)",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
+      "Built a comprehensive machine learning framework to predict injection moulding quality using classical ML models and neural networks. Achieved 93.63% accuracy with Random Forest and 93.5% cross-validation accuracy using optimized MLPs and Recursive Feature Elimination (RFE).",
+    image: "/projects/injection-ml.png",
+    tags: [
+      "Python",
+      "Machine Learning",
+      "Random Forest",
+      "Neural Networks",
+      "RFE",
+      "scikit-learn",
+    ],
     link: "#",
     github: "#",
   },
   {
-    title: "Project Management Tool",
+    title: "Injection Moulding Process Monitoring (Data Analytics)",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+      "Performed data analytics and statistical modeling to identify key parameters affecting manufacturing conditions. Applied data cleaning, regression models, PCA, and visualization techniques to support predictive monitoring and decision-making.",
+    image: "/projects/injection-analytics.png",
+    tags: [
+      "Python",
+      "Pandas",
+      "Statistical Analysis",
+      "PCA",
+      "Matplotlib",
+      "Seaborn",
+    ],
+    link: "#",
+    github: "#",
+  },
+  {
+    title: "Auto-CA Compiler (Automation Project)",
+    description:
+      "Built an OCR-based automation system to extract numerical data from technical documents and automatically compute analysis results. Generated PowerPoint reports using python-pptx, saving over 80 hours through workflow automation.",
+    image: "/projects/autoca.png",
+    tags: [
+      "Python",
+      "OCR",
+      "Automation",
+      "Data Extraction",
+      "python-pptx",
+    ],
+    link: "#",
+    github: "#",
+  },
+  {
+    title: "Pizza Boy – Database-Driven Ordering System",
+    description:
+      "Developed a full-stack pizza ordering system with role-based access for customers and staff. Implemented secure backend logic with prepared SQL statements and a relational MariaDB schema to support CRUD operations and order tracking.",
+    image: "/projects/pizzaboy.png",
+    tags: [
+      "Python",
+      "Flask",
+      "MariaDB",
+      "SQL",
+      "HTML",
+      "CSS",
+    ],
+    link: "#",
+    github: "#",
+  },
+  {
+    title: "Smart Campus IoT System",
+    description:
+      "Designed an IoT-based smart campus system to reduce energy consumption through occupancy-based automation. Integrated multiple sensors with Arduino and ESP32, featuring cloud dashboards and security enhancements including RFID and camera-based alerts.",
+    image: "/projects/iot-campus.png",
+    tags: [
+      "IoT",
+      "Arduino",
+      "ESP32",
+      "Sensors",
+      "Automation",
+      "Cloud Dashboard",
+    ],
+    link: "#",
+    github: "#",
+  },
+  {
+    title: "Asset Management System (C++ OOP)",
+    description:
+      "Built a full-featured C++ asset management system using core OOP principles. Implemented secure login, GUI and console interfaces, file-based persistence, exception handling, and UML-driven system design in a team environment.",
+    image: "/projects/asset-management.png",
+    tags: [
+      "C++",
+      "OOP",
+      "GUI",
+      "File I/O",
+      "System Design",
+    ],
     link: "#",
     github: "#",
   },
 ];
+
 
 export const Projects = () => {
   return (
